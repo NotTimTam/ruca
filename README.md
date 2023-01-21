@@ -20,6 +20,8 @@ PORT=8000
 VERSION_TARGET=v1
 ```
 
+Make sure to run `npm i` to install all the necessary dependencies beforehand.
+
 ## Running the API
 
 The api can be started by using `NODE.js` to run the `api.js` file in the root of the directory. There are also two `NPM Scripts`, `start` and `dev` which will do this. `dev` runs the api through the NPM package called [Nodemon](https://www.npmjs.com/package/nodemon).
