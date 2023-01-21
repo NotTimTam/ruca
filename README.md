@@ -5,6 +5,8 @@
 
 An open-source, **self-deployable** express API for querying the USDA's Rural-Urban Commuting Area Codes.
 
+This lightweight API is meant to be customized and deployed on your server infrastructure for your needs.
+
 For more information on RUCA codes, visit [this site](https://www.ers.usda.gov/data-products/rural-urban-commuting-area-codes/documentation/).
 
 ## Setup
