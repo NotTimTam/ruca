@@ -15,12 +15,15 @@ Necessary `.env` parameters:
     -   This is the port the API will be hosted on. If one is not provided, it defaults to `3000`.
 -   `VERSION_TARGET`
     -   The version of the API you would like to use. The only available version is `v1`, which is also the default.
+-   `REQUEST_LIMIT`
+    -   The number of requests per 1 hour that an API client can make. (default `1000`)
 
 Example:
 
 ```
 PORT=8000
 VERSION_TARGET=v1
+REQUEST_LIMIT=1000
 ```
 
 Make sure to run `npm i` to install all the necessary dependencies beforehand.

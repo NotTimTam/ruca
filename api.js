@@ -16,6 +16,16 @@ app.use(cors());
 const helmet = require("helmet");
 app.use(helmet());
 
+const rateLimit = require("express-rate-limit");
+app.use(
+	rateLimit({
+		windowMs: 3600000, // 1 hour.
+		max: process.env.REQUEST_LIMIT || 1000, // Max requests.
+		standardHeaders: true, // Return rate limit info in the `RateLimit-*` headers.
+		legacyHeaders: false, // Disable the `X-RateLimit-*` headers.
+	})
+);
+
 app.use(express.json());
 
 try {
