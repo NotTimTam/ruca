@@ -1,4 +1,5 @@
 # ruca.js API v1
+
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
@@ -9,6 +10,7 @@ For more information on RUCA codes, visit [this site](https://www.ers.usda.gov/d
 ## Setup
 
 Necessary `.env` parameters:
+
 -   `PORT`
     -   This is the port the API will be hosted on. If one is not provided, it defaults to `3000`.
 -   `VERSION_TARGET`
@@ -47,21 +49,13 @@ The API can be started by using `NODE.js` to run the `api.js` file in the root o
     -   `primaryRUCACode`
         -   The primary RUCA code to filter by.
     -   `secondaryRUCACode`
-
         -   The secondary RUCA code to filter by.
-
     -   `population`
-
         -   The exact population number to filter by.
-
     -   `minPopulation`
-
         -   A minimum value on the population, showing only those that are greater than, or equal to the provided number.
-
     -   `maxPopulation`
-
         -   A cap on the maximum population, showing only those that are less than, or equal to the provided number.
-
     -   `landArea`
         -   The exact land area (**in square miles**) to filter by.
     -   `minLandArea`

@@ -13,6 +13,9 @@ const VERSION_TARGET = process.env.VERSION_TARGET || "v1";
 const cors = require("cors");
 app.use(cors());
 
+const helmet = require("helmet");
+app.use(helmet());
+
 app.use(express.json());
 
 try {
