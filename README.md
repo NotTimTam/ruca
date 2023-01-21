@@ -6,8 +6,7 @@ For more information on RUCA codes, visit [this site](https://www.ers.usda.gov/d
 
 ## Setup
 
-Clone the repository to your server and within its root folder (`./`), create a file labeled `.env` with the necessary parameters:
-
+Necessary `.env` parameters:
 -   `PORT`
     -   This is the port the API will be hosted on. If one is not provided, it defaults to `3000`.
 -   `VERSION_TARGET`
