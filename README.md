@@ -1,4 +1,4 @@
-# RUCA api v1
+# ruca.js API v1
 
 An open-source, self-deployable express API.
 
@@ -11,7 +11,7 @@ Clone the repository to your server and within its root folder (`./`), create a 
 -   `PORT`
     -   This is the port the API will be hosted on. If one is not provided, it defaults to `3000`.
 -   `VERSION_TARGET`
-    -   The version of the api you would like to use. The only available version is `v1`, which is also the default.
+    -   The version of the API you would like to use. The only available version is `v1`, which is also the default.
 
 Example:
 
@@ -24,7 +24,7 @@ Make sure to run `npm i` to install all the necessary dependencies beforehand.
 
 ## Running the API
 
-The api can be started by using `NODE.js` to run the `api.js` file in the root of the directory. There are also two `NPM Scripts`, `start` and `dev` which will do this. `dev` runs the api through the NPM package called [Nodemon](https://www.npmjs.com/package/nodemon).
+The API can be started by using `NODE.js` to run the `api.js` file in the root of the directory. There are also two `NPM Scripts`, `start` and `dev` which will do this. `dev` runs the API through the NPM package called [Nodemon](https://www.npmjs.com/package/nodemon).
 
 ## Documentation
 
