@@ -1,0 +1,30 @@
+{
+	"name": "ruca",
+	"version": "1.0.0",
+	"description": "An open-source api deployment for RUCA codes.",
+	"main": "api.js",
+	"scripts": {
+		"start": "node api.js",
+		"dev": "npx nodemon api.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "github.com/NotTimTam/ruca"
+	},
+	"keywords": [
+		"ruca",
+		"api",
+		"express",
+		"node",
+		"npm"
+	],
+	"author": "NotTimTam",
+	"license": "CC0-1.0",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"fs-extra": "^11.1.0",
+		"xlsx": "^0.18.5"
+	}
+}
