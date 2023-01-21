@@ -9,6 +9,9 @@ require("dotenv").config(); // Load .env
 const PORT = process.env.PORT || 3000; // Determine host port.
 const VERSION_TARGET = process.env.VERSION_TARGET || "v1";
 
+// Additional configuration.
+app.disable("x-powered-by");
+
 // Middleware.
 const cors = require("cors");
 app.use(cors());
