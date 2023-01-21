@@ -1,6 +1,5 @@
 // ./util/xlsx.js
 
-const fs = require("fs-extra");
 const XLSX = require("xlsx");
 
 const headerMap = {
